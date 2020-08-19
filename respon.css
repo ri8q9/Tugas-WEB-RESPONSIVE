@@ -51,7 +51,7 @@ header h2
     float: left;
 }
  
-.navigasi li a 
+.menu li a 
 {
     display: block;
     color: white;
@@ -60,7 +60,7 @@ header h2
     text-decoration: none;
 }
  
-.navigasi li a:hover 
+.menu li a:hover 
 {
     background-color:red;
     transition-duration: 2s;
@@ -112,10 +112,15 @@ header h2
     margin-right: 10px;
     float: left;
 }
+
+.tombol-pesan
+{
+    background-color: green;
+}
  
 .menu-tengah
 {
-    width: 530px;
+    width: 540px;
     margin-right: 10px;
     float: left;
 }
@@ -153,11 +158,6 @@ header h2
     transition-duration: 2s;
 }
  
-.tombol-pesan
-{
-    background-color: green;
-}
- 
 .tombol-lengkap
 {
     background-color: darkorange;
@@ -166,10 +166,10 @@ header h2
 .menu-kanan
 {
     width: 250px;
-    float: left;
+    float: right;
 }
  
-.menu-kanan, .menu-kiri, .menu-tengah
+.menu-kanan, .menu-kiri, .menu-kiri1, .menu-tengah
 {
     margin-bottom: 15px;
 }
@@ -241,7 +241,7 @@ footer
         text-align: center;
     }
  
-    .menu-kiri, .menu-kanan, .menu-tengah
+    .menu-kiri,  .menu-kanan, .menu-tengah
     {
         float: none;
         width: 100%;
@@ -251,4 +251,57 @@ footer
     {
         float: none;
     }
+} 
+.foto
+{
+    padding: 5px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+ 
+.foto h3
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+ 
+.foto img
+{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    border: 5px solid #fcf8f8;
+    box-shadow: 1px 1px 0px rgba(47,54,64,0.5);
+    margin: 0px 10px;
+    display: block;
+    /* transition: all 1s; */
+
+}
+ 
+.foto p
+{
+    margin-bottom: 10px;
+}
+.tombol-foto
+{
+    background-color: aqua;
+    font-size: 11px;
+    float: center;
+    text-align: center;
+    align-self: center;
+}
+.menu-kiri1
+{
+    width: 200px;
+    margin-right: 5px;
+    float: left;
+}
+.menu-kiri1 h3
+{
+    font-size: 20px;
+
 }
